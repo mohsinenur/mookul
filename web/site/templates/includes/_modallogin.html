@@ -1,0 +1,93 @@
+<!-- Large Modal-->
+<div class="modal fade" id="modalLogin" style="background-color: #0006;" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Modal title</h4>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Product Info-->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item"><a class="nav-link active show" href="#login" data-toggle="tab"
+                                            role="tab" aria-selected="true"><i class="icon-help"></i>Login</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#register" data-toggle="tab" role="tab"
+                                            aria-selected="false"><i class="icon-head"></i>Register</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="login" class="tab-pane fade active show" role="tabpanel">
+                        <form class="" method="post">
+                            <div class="row margin-bottom-1x">
+                                <div class="col-xl-4 col-md-6 col-sm-4"><a class="btn btn-sm btn-block facebook-btn"
+                                                                           href="#"><i class="socicon-facebook"></i>&nbsp;Facebook
+                                    login</a></div>
+                                <div class="col-xl-4 col-md-6 col-sm-4"><a class="btn btn-sm btn-block google-btn"
+                                                                           href="#"><i class="socicon-googleplus"></i>&nbsp;Google+
+                                    login</a></div>
+                            </div>
+                            <h4 class="margin-bottom-1x">Or using form below</h4>
+                            <div class="form-group input-group">
+                                <input class="form-control" type="text" placeholder="Phone" required=""><span
+                                    class="input-group-addon"><i class="icon-record"></i></span>
+                            </div>
+                            <div class="form-group input-group">
+                                <input class="form-control" type="password" placeholder="Password" required=""><span
+                                    class="input-group-addon"><i class="icon-lock"></i></span>
+                            </div>
+                            <div class="d-flex flex-wrap justify-content-between padding-bottom-1x">
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" id="remember_me" checked="">
+                                    <label class="custom-control-label" for="remember_me">Remember me</label>
+                                </div>
+                                <a class="navi-link" href="account-password-recovery.html">Forgot password?</a>
+                            </div>
+                            <div class="text-center text-sm-right">
+                                <button class="btn btn-primary margin-bottom-none" type="submit">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="register" class="tab-pane fade show" role="tabpanel">
+                        <div class="padding-top-3x hidden-md-up"></div>
+                        <h3 class="margin-bottom-1x">No Account? Register</h3>
+                        <p>Registration takes less than a minute but gives you full control over your orders.</p>
+                        <form class="row" method="post">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="reg-fn">Full Name</label>
+                                    <input class="form-control" type="text" id="reg-fn" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="reg-phone">Phone Number</label>
+                                    <input class="form-control" type="text" id="reg-phone" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="reg-pass">Password</label>
+                                    <input class="form-control" type="password" id="reg-pass" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="reg-pass-confirm">Confirm Password</label>
+                                    <input class="form-control" type="password" id="reg-pass-confirm" required="">
+                                </div>
+                            </div>
+                            <div class="col-12 text-center text-sm-right">
+                                <button class="btn btn-primary margin-bottom-none" type="submit">Register</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline-secondary btn-sm" type="button" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
